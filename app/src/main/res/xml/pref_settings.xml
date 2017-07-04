@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="preference_screen" >
+    <PreferenceCategory android:title="AppLock">
+        <Preference
+            android:title="@string/pref_title_application_version"
+            android:key="copyright_key"
+            android:summary="@string/copyright_string"
+            />
+        <!--<Preference-->
+            <!--android:key="pUnlock"-->
+            <!--android:summary="@string/support_development"-->
+            <!--android:title="@string/get_unlocker" />-->
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Customize Application">
+        <CheckBoxPreference
+            android:key="color_dynamic_key"
+            android:title="Dynamic lockscreen background"
+            android:summary="Enable/Disable dynamic lockscreen background\nDefault is White Background "/>
+
+    </PreferenceCategory>
+
+    <Preference
+        android:key="pPass"
+        android:summary="@string/change_current"
+        android:title="@string/change_password" />
+    <Preference
+        android:key="pAccess"
+        android:title="Accessibility status" />
+    <!--<Preference-->
+        <!--android:key="pMail"-->
+        <!--android:summary="Nothing is set"-->
+        <!--android:title="Recovery email" />-->
+
+
+</PreferenceScreen>

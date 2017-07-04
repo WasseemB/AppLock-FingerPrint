@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:fitsSystemWindows="false"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/mi_baseline">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Security Email"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+
+    <EditText
+        android:id="@+id/saveMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/mi_baseline"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="This email address will be used for recovery purposes.\nIn case of forgetting your password, An email will be sent to this address."
+        />
+
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/mi_baseline"
+        android:text="Save"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>

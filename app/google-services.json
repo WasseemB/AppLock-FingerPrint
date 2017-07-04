@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "983465974000",
+    "firebase_url": "https://application-lock.firebaseio.com",
+    "project_id": "application-lock",
+    "storage_bucket": "application-lock.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983465974000:android:d24503d1030b1e24",
+        "android_client_info": {
+          "package_name": "com.wasseemb.applock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983465974000-fggma4f95lste35aeq6jvle9n0gmhqi6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBgKfdMcnSH0GqYbWyWzw2WU0OcAVH8yo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

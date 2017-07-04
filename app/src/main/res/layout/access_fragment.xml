@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:fitsSystemWindows="false"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="@dimen/mi_baseline">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/imView"
+
+        android:layout_above="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/textView" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Choose AppLock and click on"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+
+        android:id="@+id/textView" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="@dimen/mi_baseline_half"
+        android:paddingBottom="@dimen/mi_baseline_half"
+        android:paddingLeft="@dimen/mi_baseline"
+        android:paddingRight="@dimen/mi_baseline"
+        android:gravity="center"
+        android:text="Enable AppLock accessibility"
+        android:textColor="@color/white"
+        android:maxLines="1"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/accButton"
+        android:minLines="1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/mi_button_cta_height" />
+
+
+</RelativeLayout>
